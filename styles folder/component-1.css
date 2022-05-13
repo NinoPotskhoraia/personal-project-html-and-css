@@ -1,57 +1,53 @@
 .info{
     width:100%;
     height:33px;
-    margin-top:18px;
-    position: relative;
-}
-
-.info::after{
-    content: '';
-    position:absolute;
-    width:100vw;
-    height:1px;
-    top:50px;
-    background-color: #C9C9C9;
+    margin-bottom:12px;
 }
 
 .info .container{
     width:100%;
-    padding:18px 380px 18px 380px; 
+    padding:12px 375px; 
+    justify-content: space-between;
 }
 
 .contact{
     width:35%;
+    justify-content: space-between;
 }
 
 .contact span{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .fa-envelope{
     color:#999999;
-    margin-right: 20px;
+    margin-right:20px;
 }
 
 .fa-phone-volume{
     color:#999999;
-    margin-right:12px;
+    margin-right:15px;
     transform: rotate(-45deg);
+    position:absolute;
+    top:12px;
+    left:620px;
    
 }
 
 .social-media{
-    width:120px;
-    transform:translateX(12px);
+    width:20%;
+    transform: translateX(107px);
 }
 
 .social-media li:not(:last-child){
-    margin-right:3px;
+    margin-right:19px;
 }
 
-.fa-twitter{
-    color:#EE3364;
-}
 
 .fa-google-plus-g{
     color:#B8B8B8;
+}
+
+.social-media a:hover{
+    color:#EE3364;
 }

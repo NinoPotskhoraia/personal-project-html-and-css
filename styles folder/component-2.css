@@ -1,0 +1,75 @@
+.navbar-section{
+    background-color: blue;
+}
+
+.navbar{
+    width:79%;
+    margin:0 auto;
+    height:95px;
+    align-items: center;
+    padding-left:175px;
+ 
+}
+
+.logo{
+    font-weight:900;
+    color:white;
+    font-family:'Poppins', sans-serif;
+    font-size:40px;
+    width:10%;
+    margin-right:240px;
+}
+
+.dot{
+    color:#EE3364;
+}
+
+nav{
+   width:44%;
+   margin-right:130px;
+}
+
+nav ul{
+    justify-content: space-between;
+    margin-left:20px;
+}
+
+
+
+nav a{
+    font-weight:bold;
+    font-size:18px;
+    color:white;
+}
+
+nav a:hover{
+    color:#EE3364;
+}
+
+.search{
+    width:4.5%;
+    justify-content: space-between;
+}
+
+.bag{
+    width:18px;
+    height:22px;
+}
+
+.mark{
+    position:absolute;
+    background-color:#EE3364;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    text-align: center;
+    color:white;
+    font-size:12px;
+    right:415px;
+    top:85px;
+}
+
+.glass{
+    width:21px;
+    height:21px;
+}
