@@ -1,0 +1,58 @@
+section.numbers{
+    height:307px;
+    background-color: #1B1B1B;
+    color:white;
+    padding-top:82px;
+}
+
+.numbers-container{
+    width:61%;
+    margin:0 auto;
+}
+
+.pie-chart{
+    margin-right:99px;
+}
+
+.scale{
+    margin-right:90px;
+}
+
+.icon-frame{
+    width:114px;
+    height:114px;
+    border-radius: 50%;
+    background-color: #2D2C2C;
+    margin-right:26px;
+    position: relative;
+}
+
+.scale .icon-frame{
+    margin-right:35px;
+}
+
+.icon-frame i{
+    color:#FF434B;
+    position:absolute;
+    top:31px;
+    left:29px;
+}
+
+.regular{
+    font-size:24px;
+    font-weight: 400;
+}
+
+.large{
+    font-size:57px;
+    font-family: 'glacial indifference';
+    margin-top:10px;
+}
+
+.crown .large{
+    margin-top:5px;
+    letter-spacing: 0.5px;
+}
+
+
+
