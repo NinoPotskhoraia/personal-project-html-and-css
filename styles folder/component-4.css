@@ -97,7 +97,7 @@ left:18px;
 }
 
 .icon img:hover{
-    filter:brightness(0)invert(1);
+    filter:brightness(0) invert(1);
 }
 
 
