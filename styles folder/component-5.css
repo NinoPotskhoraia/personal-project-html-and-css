@@ -1,0 +1,99 @@
+section.skills-showcase{
+    height:565px;
+    background-color: #EDF7FF;
+    padding-top:108px;
+}
+
+.skills-container{
+    width:60%;
+    margin:0 auto;
+    font-size: 16px;
+}
+
+.skills-container p{
+    font-size: 36px;
+    line-height: 39px;
+    margin-bottom:36px;
+}
+
+.skills-desc{
+    line-height: 26px;
+    display: inline-block;
+    width:531px;
+    height:130px;
+    margin-bottom:22px;
+}
+
+.journey{
+    width:44%;
+    margin-right:118px;
+}
+
+.skills{
+    width:44%;
+}
+
+.signature img{
+    margin-right:22px;
+}
+
+.name{
+font-family: 'glacial indifference';
+font-size:20px;
+font-weight: bold;
+display:block;
+margin-top:17px;
+}
+
+.ceo{
+    font-family: 'glacial indifference';
+    font-size: 14px;
+}
+
+.graphic{
+    flex-direction: column;
+    width:550px;
+}
+
+.graphic-item{
+    margin-bottom:27px;
+}
+
+.graphic-text{
+    font-size:15px;
+    margin-top:1px;
+    margin-bottom:11px;
+}
+
+.figure{
+    width:100%;
+    height:11px;
+    background-color: white;
+    position:relative;
+}
+
+.figure::after{
+    content:"";
+    position:absolute;
+    height:100%;
+    width:74%;
+    top:0;
+    left:0;
+    background-color: #EE3364;
+}
+
+.figure-middle::after{
+   width:83%;
+   
+}
+
+.figure-bottom::after{
+   width:59%;
+    
+}
+
+
+
+
+
+

@@ -6,6 +6,7 @@
 
 body{
     font-family:'MuliRegular';
+    color:#2e2e2e;
 }
 
 ul{
@@ -17,9 +18,17 @@ a{
     color:#0A0909;
 }
 
+p{
+    font-family: 'glacial indifference';
+    font-weight:bold;
+}
+
 .flex{
     display:flex;
-    /* justify-content: space-between; */
+}
+
+.justify-content{
+    justify-content: space-between;
 }
 
 button{
@@ -30,4 +39,5 @@ button{
     font-weight:bold;
     font-size:12px;
     letter-spacing: 1px;
+    cursor:pointer;
 }

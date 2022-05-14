@@ -1,0 +1,31 @@
+section.video{
+  height:636px;
+  background-color: #FF434B;
+  color:white;
+  padding-top:162px;
+}
+
+.video-container{
+    width:45%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.video-container span{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.video-container p{
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom:90px
+}
+
+p.small{
+    font-size:14px;
+}
+
+.video-container img{
+    margin-bottom:36px;
+}

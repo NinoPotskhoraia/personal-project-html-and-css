@@ -2,6 +2,7 @@ section.cards{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom:138px;
 }
 
 .heading{
@@ -13,8 +14,6 @@ section.cards{
 
 .heading p{
     font-size:40px;
-    font-family:'glacial indifference';
-    font-weight: bold;
 }
 
 .heading span{
@@ -23,7 +22,6 @@ section.cards{
 
 .cards-container{
     width:61%;
-    justify-content: space-between;
     padding-top:40px;
     margin-bottom:85px;
 }
@@ -38,12 +36,11 @@ section.cards{
 
 .card:hover{
     border:3px solid #EE3364;
+    box-shadow: 5px 9px 24px -1px rgba(0,0,0,0.5);
 }
 
 .card p{
     font-size:25px;
-    font-family:'glacial indifference';
-    font-weight:bold;
     margin-bottom:28px;
 }
 
@@ -99,6 +96,10 @@ left:18px;
     color:white;
 }
 
+.icon img:hover{
+    filter:brightness(0)invert(1);
+}
+
 
 .fa-piggy-bank{
     color:red;
@@ -111,4 +112,5 @@ left:18px;
     margin-left:10px;
     font-size:13px;
     padding-left:13px;
+    
 }

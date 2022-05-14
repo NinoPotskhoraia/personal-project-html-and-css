@@ -1,5 +1,6 @@
 .navbar-section{
-    background-color: blue;
+    filter: drop-shadow(0px 20px 46px rgba(0,0,0,0.15));
+    background-color: #4b2b67;
 }
 
 .navbar{
@@ -30,7 +31,6 @@ nav{
 }
 
 nav ul{
-    justify-content: space-between;
     margin-left:20px;
 }
 
@@ -48,7 +48,6 @@ nav a:hover{
 
 .search{
     width:4.5%;
-    justify-content: space-between;
 }
 
 .bag{
@@ -66,7 +65,7 @@ nav a:hover{
     color:white;
     font-size:12px;
     right:415px;
-    top:85px;
+    top:35px;
 }
 
 .glass{
