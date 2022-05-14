@@ -3,10 +3,7 @@
    height:880px;
    background-color: blue;
    padding-top:85px;
-}
-
-.hero-container{
-   /* width:100%; */
+   margin-bottom:125px;
 }
 
 .hero-text{
@@ -40,13 +37,7 @@
 .hero-btn{
     width:179px;
     height:59px;
-    border:none;
-    text-align: center;
     padding-bottom:8px;
     padding-left:8px;
-    color:white;
-    background-color:#EE3364;
-    font-weight:bold;
-    font-size:12px;
-    letter-spacing: 1px;
+    
 }

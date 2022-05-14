@@ -1,0 +1,109 @@
+section.cards{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    width:37%;
+    text-align: center;
+    padding-left:20px;
+    margin-bottom:13px;
+}
+
+.heading p{
+    font-size:40px;
+    font-family:'glacial indifference';
+    font-weight: bold;
+}
+
+.heading span{
+    font-weight: 400;
+}
+
+.cards-container{
+    width:61%;
+    justify-content: space-between;
+    padding-top:40px;
+    margin-bottom:85px;
+}
+
+.card{
+    width:362px;
+    height:288px;
+    background-color: #EDF7FF;
+    padding-top:37px;
+    padding-left:42px;
+}
+
+.card:hover{
+    border:3px solid #EE3364;
+}
+
+.card p{
+    font-size:25px;
+    font-family:'glacial indifference';
+    font-weight:bold;
+    margin-bottom:28px;
+}
+
+.card-2 p{
+    padding-left:5px;
+}
+
+.card-3 p{
+    margin-bottom:23px;
+}
+
+.card span{
+    font-size:15px;
+}
+
+.icon{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    background-color: #fff;
+    margin-bottom:10px;
+    position:relative;
+}
+
+.icon i{
+    position:absolute;
+    top:23px;
+}
+
+.card-1 i{
+left:18px;
+}
+
+.card-2 i{
+    left:12px;
+}
+
+.card-3 i{
+    left:12px;
+}
+
+.icon:hover{
+    background-color: #EE3364;
+
+}
+
+.icon i:hover{
+    color:white;
+}
+
+
+.fa-piggy-bank{
+    color:red;
+    width:40px;
+}
+
+.services-btn{
+    width:204px;
+    height:65px;
+    margin-left:10px;
+    font-size:13px;
+    padding-left:15px;
+}
