@@ -73,16 +73,21 @@ section.cards{
     top:23px;
 }
 
+.icon img{
+    position:absolute;
+    top:27px;
+}
+
 .card-1 i{
 left:18px;
 }
 
-.card-2 i{
-    left:12px;
+.card-2 img{
+    left:19px;
 }
 
-.card-3 i{
-    left:12px;
+.card-3 img{
+    left:15px;
 }
 
 .icon:hover{
@@ -105,5 +110,5 @@ left:18px;
     height:65px;
     margin-left:10px;
     font-size:13px;
-    padding-left:15px;
+    padding-left:13px;
 }
