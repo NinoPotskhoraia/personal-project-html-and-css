@@ -1,0 +1,66 @@
+section.innovation{
+    width:100%;
+    padding-top:139px;
+    margin-bottom:100px;
+}
+
+.innovation-container{
+    width:62%;
+    margin:0 auto;
+}
+
+.layers{
+    position:relative;
+    height:600px;
+    width:600px;
+    margin-right:170px;
+}
+
+.layer{
+    width:422px;
+    height:544px;
+    background-color: #FFA723;
+    box-shadow: 1px 1px 35px 15px rgba(0,0,0,0.1);
+}
+
+.front{
+    position:absolute;
+    top:48px;
+    left:75px;
+}
+
+.innovation-text p{
+    font-size:45px;
+    margin-top:43px;
+    margin-bottom:34px;
+    line-height: 43px;
+}
+
+.innovation-text span{
+    line-height: 25px;
+    display:inline-block;
+    margin-bottom:2px;
+
+}
+
+.innovation-text ul{
+    height:210px;
+    margin-bottom:45px;
+}
+
+.innovation-text ul p{
+    font-size:17px;
+    display: inline-block;
+    margin:0;
+}
+
+.innovation-text i{
+   margin-right:15px;
+   color:#EE3364;
+}
+
+.innovation-text button{
+    width:181px;
+    height:50px;
+    padding-left:8px;
+}

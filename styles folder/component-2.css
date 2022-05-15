@@ -1,6 +1,5 @@
 .navbar-section{
-    filter: drop-shadow(0px 20px 46px rgba(0,0,0,0.15));
-    background-color: #4b2b67;
+    background-color: rgba(0,0,0,0.40);
 }
 
 .navbar{
@@ -65,7 +64,7 @@ nav a:hover{
     color:white;
     font-size:12px;
     right:415px;
-    top:35px;
+    top:85px;
 }
 
 .glass{

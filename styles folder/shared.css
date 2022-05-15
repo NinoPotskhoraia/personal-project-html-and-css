@@ -9,6 +9,10 @@ body{
     color:#2e2e2e;
 }
 
+.wrapper{
+    background-image: radial-gradient(circle at center, #ff5481 0%, #0c09c6 100%);
+}
+
 ul{
     list-style-type: none;
 }
