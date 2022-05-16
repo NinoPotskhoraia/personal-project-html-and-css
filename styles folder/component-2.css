@@ -47,11 +47,16 @@ nav a:hover{
 
 .search{
     width:4.5%;
+    padding-top:7px;
 }
 
 .bag{
     width:18px;
     height:22px;
+}
+
+.bag-container{
+    position: relative;
 }
 
 .mark{
@@ -63,8 +68,9 @@ nav a:hover{
     text-align: center;
     color:white;
     font-size:12px;
-    right:415px;
-    top:85px;
+    left:10px;
+    top:2px;
+    
 }
 
 .glass{

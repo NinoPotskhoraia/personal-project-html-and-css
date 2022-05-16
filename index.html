@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link
-        href="http://fonts.cdnfonts.com/css/glacial-indifference-2"
-        rel="stylesheet"
-      />
+    <link href="http://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet" />
 
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/muli" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,6 +26,7 @@
     <link rel="stylesheet" href="./styles folder/component-7.css">
     <link rel="stylesheet" href="./styles folder/component-8.css">
     <link rel="stylesheet" href="./styles folder/component-9.css">
+    <link rel="stylesheet" href="./styles folder/component-10.css">
     <link rel="stylesheet" href="./styles folder/shared.css">
     <script src="https://kit.fontawesome.com/0fad6d8aaa.js" crossorigin="anonymous"></script>
     <title>Document</title>
@@ -73,8 +71,10 @@
                         </ul>
                     </nav>
                     <div class="search flex justify-content">
-                        <img class="bag" src="./images folder/icon@2x.png" alt="">
-                        <span class="mark">3</span>
+                        <div class="bag-container">
+                            <img class="bag" src="./images folder/icon@2x.png" alt="">
+                            <span class="mark">3</span>
+                        </div>
                         <img class="glass" src="./images folder/icon@2x (1).png" alt="">
                     </div>
                 </div>
@@ -98,278 +98,336 @@
             </section>
     </div>
 
-        <section class="cards flex">
-            <div class="heading">
-                <p>Theme, build with usability in mind,
-                    great <span> modern unique </span> features</p>
+    <section class="cards flex">
+        <div class="heading">
+            <p>Theme, build with usability in mind,
+                great <span> modern unique </span> features</p>
+        </div>
+
+        <div class="cards-container flex justify-content">
+            <div class="card card-1">
+                <div class="icon"><i class="fa-regular fa-3x fa-gem"></i></div>
+                <p>One-click Installation</p>
+                <span>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit,</span>
             </div>
 
-            <div class="cards-container flex justify-content">
-                <div class="card card-1">
-                    <div class="icon"><i class="fa-regular fa-3x fa-gem"></i></div>
-                    <p>One-click Installation</p>
-                    <span>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit,</span>
-                </div>
-                
-                
-                <div class="card card-2">
-                    <div class="icon"><img src="./images folder/021-piggy-bank.png" alt=""></div>
-                    <p>Constant Free Updates </p>
-                    <span>Cras metus enim, luctus ut urna in, rutr um accum san mi. Nunc magna tortor,</span>
-                </div>
 
-                <div class="card card-3">
-                    <div class="icon"><img src="./images folder/037-responsive.png" alt=""></div>
-                    <p>Fully Responsive</p>
-                    <span>Pharetra vehicula erat. Etiam nec odio vestibulum est mattis efficitur vel.</span>
-                </div>
-             </div>
-
-             <button class="services-btn">VIEW ALL SERVICES</button>
-        </section>
-
-
-        <section class="skills-showcase">
-            <div class="skills-container flex">
-                 <div class="journey">
-                    <p>Your exciting journey into 
-                        digital world starts </p>
-                    <span class="skills-desc">Vivamus gravida consequat sollicitudin. Curabitur tempus vitae eros sed sodales. Morbi est tortor, varius id bibendum et, mattis sed augue. Duis porttitor ante odio, id porttitor massa tempor vehicula. Quisque congue augue rutrum neque iaculis porta. Etiam blandit mi, quis commodo nisi varius eget. Etiam sem nibh, aliquet sit amet nunc nec, </span>
-
-                    <div class="signature flex">
-                        <img src="./images folder/Rectangle 62.png" alt="">
-                        <div>
-                            <span class="name">Michael Phillips, </span>
-                            <span class="ceo">John Meo Ceo</span>
-                        </div>
-                    </div>
-                 </div>
-
-                 <div class="skills">
-                     <p>We're constantly improving
-                        our skills to fulfill </p>
-                    <div class="graphic flex">
-                        <div class="graphic-item">
-                            <div class="graphic-text flex justify-content">
-                                <span>Backend Development</span>
-                                <span>76%</span>
-                            </div>
-                            <div class="figure"></div>
-                        </div>
-
-                        <div class="graphic-item">
-                            <div class="graphic-text flex justify-content">
-                                <span>Backend Development</span>
-                                <span>76%</span>
-                            </div>
-                            <div class="figure figure-middle"></div>
-                        </div>
-
-                        <div class="graphic-item">
-                            <div class="graphic-text flex justify-content">
-                                <span>Backend Development</span>
-                                <span>76%</span>
-                            </div>
-                            <div class="figure figure-bottom"></div>
-                        </div>
-                    </div>
-                 </div>
+            <div class="card card-2">
+                <div class="icon"><img src="./images folder/021-piggy-bank.png" alt=""></div>
+                <p>Constant Free Updates </p>
+                <span>Cras metus enim, luctus ut urna in, rutr um accum san mi. Nunc magna tortor,</span>
             </div>
-        </section>
 
-        <section class="video">
-            <div class="video-container">
-                <span>Aliquam erat volutpat interdum</span>
-                <p>Get ready to start your exciting journey.
-                    Our agency will lead you through the </p>
-                <img src="./images folder/Layer 18.png" alt="">
-                <p class="small">Video name — 3:45 min.</p>
+            <div class="card card-3">
+                <div class="icon"><img src="./images folder/037-responsive.png" alt=""></div>
+                <p>Fully Responsive</p>
+                <span>Pharetra vehicula erat. Etiam nec odio vestibulum est mattis efficitur vel.</span>
             </div>
-        </section>
+        </div>
 
-        <section class="numbers">
-            <div class="numbers-container flex">
-                <div class="item pie-chart flex">
-                    <div class="icon-frame">
-                        <i class="fa-solid fa-3x fa-chart-pie"></i>
+        <button class="services-btn">VIEW ALL SERVICES</button>
+    </section>
+
+
+    <section class="skills-showcase">
+        <div class="skills-container flex">
+            <div class="journey">
+                <p>Your exciting journey into
+                    digital world starts </p>
+                <span class="skills-desc">Vivamus gravida consequat sollicitudin. Curabitur tempus vitae eros sed
+                    sodales. Morbi est tortor, varius id bibendum et, mattis sed augue. Duis porttitor ante odio, id
+                    porttitor massa tempor vehicula. Quisque congue augue rutrum neque iaculis porta. Etiam blandit mi,
+                    quis commodo nisi varius eget. Etiam sem nibh, aliquet sit amet nunc nec, </span>
+
+                <div class="signature flex">
+                    <img src="./images folder/Rectangle 62.png" alt="">
+                    <div>
+                        <span class="name">Michael Phillips, </span>
+                        <span class="ceo">John Meo Ceo</span>
                     </div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <p>We're constantly improving
+                    our skills to fulfill </p>
+                <div class="graphic flex">
+                    <div class="graphic-item">
+                        <div class="graphic-text flex justify-content">
+                            <span>Backend Development</span>
+                            <span>76%</span>
+                        </div>
+                        <div class="figure"></div>
+                    </div>
+
+                    <div class="graphic-item">
+                        <div class="graphic-text flex justify-content">
+                            <span>Backend Development</span>
+                            <span>76%</span>
+                        </div>
+                        <div class="figure figure-middle"></div>
+                    </div>
+
+                    <div class="graphic-item">
+                        <div class="graphic-text flex justify-content">
+                            <span>Backend Development</span>
+                            <span>76%</span>
+                        </div>
+                        <div class="figure figure-bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="video-container">
+            <span>Aliquam erat volutpat interdum</span>
+            <p>Get ready to start your exciting journey.
+                Our agency will lead you through the </p>
+            <img src="./images folder/Layer 18.png" alt="">
+            <p class="small">Video name — 3:45 min.</p>
+        </div>
+    </section>
+
+    <section class="numbers">
+        <div class="numbers-container flex">
+            <div class="item pie-chart flex">
+                <div class="icon-frame">
+                    <i class="fa-solid fa-3x fa-chart-pie"></i>
+                </div>
 
                 <div>
                     <p class="large">45k</p>
                     <p class="regular">Task completed</p>
                 </div>
-                </div>
+            </div>
 
-                <div class="item scale flex">
-                    <div class="icon-frame">
-                        <i class="fa-solid fa-3x fa-scale-balanced"></i>
-                    </div>
+            <div class="item scale flex">
+                <div class="icon-frame">
+                    <i class="fa-solid fa-3x fa-scale-balanced"></i>
+                </div>
 
                 <div>
                     <p class="large">38k</p>
                     <p class="regular">Salling Products</p>
                 </div>
-                </div>
+            </div>
 
-                <div class="item crown flex">
-                    <div class="icon-frame">
-                        <i class="fa-solid fa-3x fa-crown"></i>
-                    </div>
+            <div class="item crown flex">
+                <div class="icon-frame">
+                    <i class="fa-solid fa-3x fa-crown"></i>
+                </div>
 
                 <div>
                     <p class="large">5161</p>
                     <p class="regular">King Consulting</p>
                 </div>
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="innovation">
-            <div class="innovation-container flex">
-                <div class="layers">
-                    <div class="back layer"></div>
-                    <div class="front layer"></div>
-                </div>
-
-                <div class="innovation-text">
-                    <p>Innovative solutions <br> 
-                        boost your creative projects</p>
-                    <span>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec hendrerit hendrerit, sollicitudin nec ante. Pellentesque habitant morbi tristique. </span>
-
-                    <ul>
-                        <li>
-                            <div class="list-item">
-                                <i class="fa-solid fa-circle-check"></i>
-                                <p>Senectus et netus et malesuada.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="list-item">
-                                <i class="fa-solid fa-circle-check"></i>
-                                <p>
-                                    Fames ac turpis egestas. 
-                                    
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="list-item">
-                                <i class="fa-solid fa-circle-check"></i>
-                                <p>
-                                    Duis ligula odio, tristique eget.
-                                   
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="list-item">
-                                <i class="fa-solid fa-circle-check"></i>
-                                <p> 
-                                    Convallis a, blandit sollicitudin.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="list-item">
-                                <i class="fa-solid fa-circle-check"></i>
-                                <p>
-                                    In hac habitasse dictumst.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <button>SEND MESSAGE</button>
-                </div>
+    <section class="innovation">
+        <div class="innovation-container flex">
+            <div class="layers">
+                <div class="back layer"></div>
+                <div class="front layer"></div>
             </div>
 
-        </section>
+            <div class="innovation-text">
+                <p>Innovative solutions <br>
+                    boost your creative projects</p>
+                <span>Mauris at varius orci. Vestibulum interdum felis eu nisl pulvinar, quis ultricies nibh. Sed
+                    ultricies ante vitae laoreet sagittis. In pellentesque viverra purus. Sed risus est, molestie nec
+                    hendrerit hendrerit, sollicitudin nec ante. Pellentesque habitant morbi tristique. </span>
 
-        <section class="highlight-showcase">
-            <div class="highlight-container">
-                    <div class="highlight-heading">
-                        <p class="red">NEWS & EVENT</p>
-                        <p class="big">Our Highlight Showcases</p>
-                    </div>
-            
-
-                   <div class="grid-container">
-                       <div class="one grid-item">
-                           <div class="grid-text">
-                               <p class="large-font">through a <br>
-                                glass darkly.</p>
-                               <p class="red-small">BUSINESS DEVELOPMEN</p>
-                               <span>Beast, together lights air you're
-                                which moved fill had dominion.</span>
-                                <img src="./images folder/arrow.png" alt="">
-                           </div>
-                       </div>
-
-                       <div class="two grid-item">
-                        <div class="grid-text">
-                            <p class="large-font">through a <br>
-                                glass darkly.</p>
-                            <p class="red-small">BUSINESS DEVELOPMEN</p>
-                            <span>Beast, together lights air you're
-                             which moved fill had dominion.</span>
-                             <img src="./images folder/arrow.png" alt="">
+                <ul>
+                    <li>
+                        <div class="list-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <p>Senectus et netus et malesuada.
+                            </p>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="three grid-item">
-                        <div class="grid-text">
-                            <p class="large-font">through a <br>
-                                glass darkly.</p>
-                            <p class="red-small">BUSINESS DEVELOPMEN</p>
-                            <span>Beast, together lights air you're
-                             which moved fill had dominion.</span>
-                             <img src="./images folder/arrow.png" alt="">
+                    <li>
+                        <div class="list-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <p>
+                                Fames ac turpis egestas.
+
+                            </p>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="four grid-item">
-                        <div class="grid-text">
-                            <p class="large-font">through a <br>
-                                glass darkly.</p>
-                            <p class="red-small">BUSINESS DEVELOPMEN</p>
-                            <span>Beast, together lights air you're
-                             which moved fill had dominion.</span>
-                             <img src="./images folder/arrow.png" alt="">
+                    <li>
+                        <div class="list-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <p>
+                                Duis ligula odio, tristique eget.
+
+                            </p>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="five grid-item">
-                        <div class="grid-text">
-                            <p class="large-font">through a <br>
-                                glass darkly.</p>
-                            <p class="red-small">BUSINESS DEVELOPMEN</p>
-                            <span>Beast, together lights air you're
-                             which moved fill had dominion.</span>
-                             <img src="./images folder/arrow.png" alt="">
+                    <li>
+                        <div class="list-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <p>
+                                Convallis a, blandit sollicitudin.
+                            </p>
                         </div>
-                    </div>
+                    </li>
 
-                    <div class="six grid-item">
-                        <div class="grid-text">
-                            <p class="large-font">through a <br>
-                                glass darkly.</p>
-                            <p class="red-small">BUSINESS DEVELOPMEN</p>
-                            <span class="grid-desc">Beast, together lights air you're
-                             which moved fill had dominion.</span>
-                             <img src="./images folder/arrow.png" alt="">
+                    <li>
+                        <div class="list-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <p>
+                                In hac habitasse dictumst.
+                            </p>
                         </div>
-                    </div>
-                   </div>
+                    </li>
+                </ul>
 
-                   <button>VIEW ALL</button>
+                <button>SEND MESSAGE</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="highlight-showcase">
+        <div class="highlight-container">
+            <div class="highlight-heading">
+                <p class="red">NEWS & EVENT</p>
+                <p class="big">Our Highlight Showcases</p>
             </div>
 
-        </section>
+
+            <div class="grid-container grid">
+                <div class="one grid-item">
+                    <div class="grid-text">
+                        <p class="large-font">through a <br>
+                            glass darkly.</p>
+                        <p class="red-small">BUSINESS DEVELOPMEN</p>
+                        <span>Beast, together lights air you're
+                            which moved fill had dominion.</span>
+                        <img src="./images folder/arrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="two grid-item">
+                    <div class="grid-text">
+                        <p class="large-font">through a <br>
+                            glass darkly.</p>
+                        <p class="red-small">BUSINESS DEVELOPMEN</p>
+                        <span>Beast, together lights air you're
+                            which moved fill had dominion.</span>
+                        <img src="./images folder/arrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="three grid-item">
+                    <div class="grid-text">
+                        <p class="large-font">through a <br>
+                            glass darkly.</p>
+                        <p class="red-small">BUSINESS DEVELOPMEN</p>
+                        <span>Beast, together lights air you're
+                            which moved fill had dominion.</span>
+                        <img src="./images folder/arrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="four grid-item">
+                    <div class="grid-text">
+                        <p class="large-font">through a <br>
+                            glass darkly.</p>
+                        <p class="red-small">BUSINESS DEVELOPMEN</p>
+                        <span>Beast, together lights air you're
+                            which moved fill had dominion.</span>
+                        <img src="./images folder/arrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="five grid-item">
+                    <div class="grid-text">
+                        <p class="large-font">through a <br>
+                            glass darkly.</p>
+                        <p class="red-small">BUSINESS DEVELOPMEN</p>
+                        <span>Beast, together lights air you're
+                            which moved fill had dominion.</span>
+                        <img src="./images folder/arrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="six grid-item">
+                    <div class="grid-text">
+                        <p class="large-font">through a <br>
+                            glass darkly.</p>
+                        <p class="red-small">BUSINESS DEVELOPMEN</p>
+                        <span class="grid-desc">Beast, together lights air you're
+                            which moved fill had dominion.</span>
+                        <img src="./images folder/arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <button>VIEW ALL</button>
+        </div>
+
+    </section>
+
+    <section class="services">
+        <div class="services-container">
+            <div class="services-heading">
+                <p class="red">NEWS & EVENT</p>
+                <p class="big">Services Package</p>
+            </div>
+
+            <div class="services-grid grid">
+                <div class="services-item">
+                    <div class="services-text">
+                        <p class="service-heading">basic plan.</p>
+                        <span>MONTH</span>
+                        <p class="price"><span>$</span> 10</p>
+                        <p class="service-desc">
+                            10GB Storage Space
+                            50GB Bandwidth <br>
+                            10 Free Sub-Domains
+                        </p>
+                        <button>PURCHASE</button>
+                    </div>
+                </div>
+
+                <div class="services-item">
+                    <div class="services-text">
+                        <p class="service-heading">standart plan.</p>
+                        <span>MONTH</span>
+                        <p class="price"> <span>$</span> 15</p>
+                        <p class="service-desc">
+                            10GB Storage Space
+                            50GB Bandwidth <br>
+                            10 Free Sub-Domains
+                        </p>
+                        <button>PURCHASE</button>
+                    </div>
+                </div>
+
+                <div class="services-item">
+                    <div class="services-text">
+                        <p class="service-heading">basic plan.</p>
+                        <span>MONTH</span>
+                        <p class="price"><span>$</span> 19</p>
+                        <p class="service-desc">
+                            10GB Storage Space
+                            50GB Bandwidth <br>
+                            10 Free Sub-Domains
+                        </p>
+                        <button>PURCHASE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
 
 

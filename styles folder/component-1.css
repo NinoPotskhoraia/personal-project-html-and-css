@@ -1,5 +1,6 @@
 header{
     height:146px;
+    width:100%;
 }
 
 
@@ -12,7 +13,7 @@ header{
 
 .info .container{
     width:100%;
-    padding:12px 375px; 
+    padding:15px 375px; 
 }
 
 .info i{
@@ -34,9 +35,6 @@ header{
 .fa-phone-volume{
     margin-right:15px;
     transform: rotate(-45deg);
-    position:absolute;
-    top:12px;
-    left:620px;
    
 }
 

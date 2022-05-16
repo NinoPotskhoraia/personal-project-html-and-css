@@ -1,7 +1,7 @@
 section.highlight-showcase{
-    height: 2805px;
+    height: 2803px;
     background-color: #F2F2F2;
-    padding-top:140px;
+    padding-top:137px;
     padding-right:6px;
 }
 
@@ -39,7 +39,7 @@ section.highlight-showcase{
     grid-template-columns: repeat(2, 580px);
     grid-auto-rows: 725px;
     color:white;
-    margin-bottom:140px;
+    margin-bottom:138px;
 }
 
 .grid-item{
