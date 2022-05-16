@@ -23,6 +23,7 @@ section.team{
 .designer:hover{
     background-color: #D8315D;
     color:white;
+    border:10px solid #242424;
 }
 
 .designer-text{
