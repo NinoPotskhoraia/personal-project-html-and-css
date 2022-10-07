@@ -9,6 +9,16 @@ body{
     color:#2e2e2e;
 }
 
+@font-face {
+    font-family: 'MuliRegular';
+    src: url(../fonts/Muli.woff);
+}
+
+@font-face {
+    font-family: 'glacial indifference';
+    src: url(../fonts/GlacialIndifference-Bold.woff);
+}
+
 .wrapper{
     background-image: radial-gradient(circle at center, #ff5481 0%, #0c09c6 100%);
 }
