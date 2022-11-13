@@ -1,18 +1,11 @@
 section.services{
-    height:675px;
-    padding-top:127px;
-    margin-bottom:255px;
+    padding:127px 0;
+    color:#0b0b0b;
+    text-align: center;
 }
 
-.services-container{
-    width:61%;
-    margin:0 auto;
-    color:#0b0b0b;
-}
 
 .services-heading{
-    text-align: center;
-    padding-right:15px;
     margin-bottom:40px;
 }
 
@@ -22,37 +15,27 @@ section.services{
 }
 
 .services-heading .big{
-    margin-right:80px;
     margin-bottom:10px;
 }
 
 .services-item{
-    height:525px;
+    padding:50px;
     border:4px solid #EEEEEE;
-}
-
-.services-text{
     text-align: center;
-    padding-top:65px;
-    padding-right:5px;
 }
 
 .service-heading{
     font-size:30px;
-    margin-bottom:8px;
 }
 
 .services-text span{
     font-size:13px;
-    margin-right:9px;
     display:block;
 }
 
 .price{
     font-size:80px;
     display: inline-block;
-    margin-right:108px;
-    margin-bottom:43px;
 }
 
 .price span{
@@ -67,7 +50,6 @@ section.services{
     max-width:50%;
     margin:0 auto;
     line-height:30px;
-    margin-bottom:25px;
 }
 
 .services-text button{
@@ -88,7 +70,62 @@ section.services{
 }
 
 .services-grid{
-    grid-template-columns: repeat(3,367px);
+    grid-template-columns: repeat(3,auto);
     gap:30px;
+}
+
+@media(max-width:1000px){
+    .price{
+        font-size: 60px;
+    }
+
+    .price span{
+        font-size:24px;
+        line-height:23px;
+    }
+
+    .services-text button{
+        width:100px;
+        height:40px;
+        font-size:12px;
+    }
+}
+
+@media(max-width:850px){
+    .services-grid{
+        grid-template-columns: 70%;
+        place-content: center;
+    }
+
+    .service-desc{
+        margin-bottom:20px;
+    }
+}
+
+@media(max-width:500px){
+
+    .services-grid{
+        grid-template-columns: 80%;
+    }
+}
+
+@media(max-width:322px){
+    section.services{
+        padding:50px 0;
+    }
+
+    section.services .container{
+        width:100%;
+        padding:0 20px;
+    }
+
+    .services-grid{
+        grid-template-columns: 100%;
+    }
+
+    .service-desc{
+        font-size:14px;
+        line-height: 19px;
+    }
 }
 

@@ -1,11 +1,11 @@
-section.team{
-    height: 569px;
-}
+
 
 .team-container{
     width:100%;
     height:100%;
+    max-height:100vh;
     grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: minmax(400px, auto);
 }
 
 .designer:nth-child(odd){
@@ -18,6 +18,7 @@ section.team{
 
 .designer{
     height:100%;
+    cursor: pointer;
 }
 
 .designer:hover{
@@ -30,7 +31,10 @@ section.team{
     height:100%;
     width:100%;
     text-align: center;
-    padding-top:274px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     opacity: 0;
 }
 
@@ -45,14 +49,42 @@ section.team{
 
 .job{
     font-size:20px;
-    padding-left:10px;
     display:inline-block;
     margin-bottom:27px;
 }
 
 .social-icons{
-    width:20%;
+    width:25%;
     margin:0 auto;
     align-items: center;
-    padding-left:8px;
+}
+
+@media(max-width:1000px){
+    .team-container{
+        grid-template-columns: repeat(3,1fr);
+        gap:20px;
+        max-height: 1000000vh;
+    }
+}
+
+@media(max-width:700px){
+    .team-container{
+        grid-template-columns: repeat(2, 1fr);
+        width:60%;
+        margin:0 auto;
+        gap:15px; 
+       
+    }
+
+    .designer-name{
+        font-size:20px;
+    }
+}
+
+@media(max-width:400px){
+    .team-container{
+        width:80%;
+        grid-template-columns: 1fr;
+        grid-auto-rows:300px;
+    }
 }

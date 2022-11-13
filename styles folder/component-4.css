@@ -1,15 +1,13 @@
 section.cards{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-bottom:138px;
 }
 
 .heading{
-    width:37%;
-    text-align: center;
-    padding-left:20px;
-    margin-bottom:13px;
+   
+    max-width:500px;
+    margin: 0 auto;
+    margin-bottom:50px;
 }
 
 .heading p{
@@ -21,17 +19,18 @@ section.cards{
 }
 
 .cards-container{
-    width:61%;
-    padding-top:40px;
-    margin-bottom:85px;
+    width:100%;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom:100px;
 }
 
 .card{
-    width:362px;
-    height:288px;
+    max-width:362px;
     background-color: #EDF7FF;
-    padding-top:37px;
-    padding-left:42px;
+    padding:45px;
+    text-align: center;
+   
 }
 
 .card:hover{
@@ -44,14 +43,6 @@ section.cards{
     margin-bottom:28px;
 }
 
-.card-2 p{
-    padding-left:5px;
-}
-
-.card-3 p{
-    margin-bottom:23px;
-}
-
 .card span{
     font-size:15px;
 }
@@ -62,29 +53,14 @@ section.cards{
     border-radius:50%;
     background-color: #fff;
     margin-bottom:10px;
-    position:relative;
 }
 
 .diamond{
     filter:invert(1);
 }
 
-.icon img{
-    position:absolute;
-    top:26px;
-}
 
-.card-1 img{
-    left:17px;
-}
 
-.card-2 img{
-    left:19px;
-}
-
-.card-3 img{
-    left:15px;
-}
 
 .icon:hover{
     background-color: #EE3364;
@@ -98,8 +74,56 @@ section.cards{
 .services-btn{
     width:204px;
     height:65px;
-    margin-left:10px;
     font-size:13px;
-    padding-left:13px;
     
+}
+
+@media(max-width:1395px){
+    .card{
+        margin-bottom:20px;
+    }
+}
+
+@media(max-width:900px){
+    .cards-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading p{
+        font-size:34px;
+    }
+
+    .card p{
+        font-size:18px;
+    }
+
+    .services-btn{
+        width:150px;
+        height:50px;
+        font-size:10px;
+    }
+}
+
+@media(max-width:400px){
+    .heading p{
+        font-size:28px;
+    }
+}
+
+@media(max-width:322px){
+    section.cards {
+        padding:50px 0;
+        margin-bottom:0;
+    }
+
+    section.cards .container{
+        width:100%;
+        padding:0 20px;
+    }
+
+    .cards-container{
+        margin-bottom:30px;
+    }
 }

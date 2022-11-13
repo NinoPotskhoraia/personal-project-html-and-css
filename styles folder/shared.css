@@ -5,6 +5,8 @@
 }
 
 body{
+    max-width:100vw;
+    overflow-x: hidden;
     font-family:'MuliRegular';
     color:#2e2e2e;
 }
@@ -27,9 +29,15 @@ section{
     width:100%;
 }
 
-/* img{
+.container{
+    width:85%;
+    margin:0 auto;
+    padding:0 50px;
+}
+
+img{
     max-width:100%;
-} */
+}
 
 ul{
     list-style-type: none;
@@ -57,6 +65,15 @@ p{
     justify-content: space-between;
 }
 
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
 button{
     border:none;
     text-align: center;
@@ -66,4 +83,23 @@ button{
     font-size:12px;
     letter-spacing: 1px;
     cursor:pointer;
+    transition: all 0.7s linear;
+}
+
+button:hover{
+    color:blue;
+    background-color: #fff;
+    border:2px solid blue;
+}
+
+@media(max-width:900){
+    p{
+        font-size:25px;
+        line-height: 25px;
+    }
+
+    span{
+        font-size:14px;
+        line-height: 18px;
+    }
 }

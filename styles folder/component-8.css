@@ -1,19 +1,12 @@
 section.innovation{
-    width:100%;
-    padding-top:139px;
-    margin-bottom:128px;
+    padding:130px 0;
 }
 
-.innovation-container{
-    width:62%;
-    margin:0 auto;
-}
+
 
 .layers{
     position:relative;
-    height:600px;
-    width:600px;
-    margin-right:170px;
+    width:45%;
 }
 
 .layer{
@@ -29,9 +22,12 @@ section.innovation{
     left:75px;
 }
 
+.innovation-text{
+    width:45%;
+}
+
 .innovation-text p{
     font-size:45px;
-    margin-top:43px;
     margin-bottom:34px;
     line-height: 43px;
 }
@@ -44,7 +40,6 @@ section.innovation{
 }
 
 .innovation-text ul{
-    height:210px;
     margin-bottom:45px;
 }
 
@@ -63,4 +58,80 @@ section.innovation{
     width:181px;
     height:50px;
     padding-left:8px;
+}
+
+@media(max-width:1200px){
+    .layer{
+        width:320xp;
+        height:500px;
+    }
+
+    .front{
+        top:28px;
+        left:35px;
+    }
+}
+
+@media(max-width:1100px){
+  
+
+   .innovation-text{
+    width:45%;
+   }
+
+   .layer{
+    width:300px;
+    height:400px;
+   }
+
+    .front{
+        top:48px;
+        left:40px;
+    }
+}
+
+@media(max-width:1000px){
+    .innovation-text p{
+        font-size:30px;
+        line-height: 35px;
+        margin-bottom:10px;
+    }
+
+    .innovation-text span{
+        font-size:14px;
+        line-height: 25px;
+        margin-bottom:10px;
+    }
+}
+
+@media(max-width:900px){
+    .innovation-text li p{
+        font-size:14px;
+    }
+}
+
+@media(max-width:850px){
+    .layers{
+        display:none;
+    }
+
+    .innovation-text{
+        width:100%;
+        text-align: center;
+    }
+
+    .innovation-text ul{
+        text-align: left;
+    }
+}
+
+@media(max-width:322px){
+
+    section.innovation{
+        padding:50px 0;
+    }
+    section.innovation .container{
+        width:100%;
+        padding:0 20px;
+    }
 }

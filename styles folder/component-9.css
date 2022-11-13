@@ -1,23 +1,12 @@
 section.highlight-showcase{
-    height: 2803px;
     background-color: #F2F2F2;
-    padding-top:135px;
-    padding-right:6px;
-}
-
-.highlight-container{
-    width:61%;
-    margin:0 auto;
-}
-
-.highlight-heading{
+    padding:135px 0;
     text-align: center;
 }
 
 .highlight-container button{
     width:180px;
     height:57px;
-    margin-left:480px;
     font-size:13px;
 }
 
@@ -30,13 +19,12 @@ section.highlight-showcase{
 .big{
     font-size:65px;
     color:#222222;
-    margin-left:100px;
     margin-bottom:50px;
 }
 
 .grid-container{
     display:grid;
-    grid-template-columns: repeat(2, 580px);
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 725px;
     color:white;
     margin-bottom:138px;
@@ -44,6 +32,7 @@ section.highlight-showcase{
 
 .grid-item{
     position:relative;
+    cursor: pointer;
 }
 
 .grid-item span{
@@ -78,10 +67,10 @@ section.highlight-showcase{
     text-align:center;
     width:100%;
     height:100%;
-    margin:0 auto;
-    padding-right:30px;
-    padding-top:244px;
-    padding-left:16px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     opacity:0;
 }
 
@@ -111,6 +100,55 @@ section.highlight-showcase{
 
 .grid-text img{
     display:block;
-    padding-left:247px;
+}
+
+@media(max-width:900px){
+    section.highlight-showcase{
+        padding:80px 0;
+    }
+
+    .grid-container{
+        grid-auto-rows: 450px;
+    }
+
+    .large-font{
+        font-size:24px;
+    }
+
+    .grid-item span{
+        font-size:16px;
+    }
+
+    .big{
+        font-size:45px;
+    }
+}
+
+@media(max-width:700px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        gap:15px;
+    }
+}
+
+@media(max-width:400px){
+    .big{
+        font-size:28px;
+    }
+
+    .grid-container{
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:322px){
+ section.highlight-showcase  .highlight-container{
+        width:100%;
+        padding:0 20px;
+    }
+    /* .grid-container{
+        grid-auto-rows: 300px;
+        
+    } */
 }
 

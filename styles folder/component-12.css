@@ -1,15 +1,14 @@
-section.request-call{
-    height:709px;
+.request-call{
+    padding:150px 0;
 }
 
 .request-container img{
     align-self: flex-start;
+    width:40%;
 }
 
-.request-container{
-    width:100%;
-    padding-top:147px;
-    padding-left:48px;
+.request-text{
+    width:50%;
 }
 
 .request-heading{
@@ -34,20 +33,12 @@ section.request-call{
     color:#EE3364;
 }
 
-.spaceman{
-    transform:rotate(-10deg);
-    margin-right:90px;
-    margin-left:80px;
-    margin-top:-25px;
-    max-width:450px;
-}
+
 
 .form-container{
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, auto);
     grid-auto-rows: 54px;
     gap:22px;
-    padding-left:2px;
-    margin-right:90px;
 }
 
 select,
@@ -72,17 +63,75 @@ select:focus{
     border:2px solid #EE3364;
 }
 
-input[type="submit"]{
-    background-color: #EE3364;
-    color:white;
-    border:none;
-    padding-right:10px;
-    padding-bottom: 2px;
-    font-size:13px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
+@media(max-width:1000px){
+    .request-call{
+        padding:100px 0;
+    }
+
+    .request-heading{
+        font-size:30px;
+        line-height: 30px;
+        margin-bottom:10px;
+    }
+
+    .request-desc{
+        font-size:14px;
+        line-height: 20px;
+        margin-bottom:10px;
+    }
+
+    .request-container img{
+        align-self: center;
+    }
+
+    .form-container{
+        gap:15px;
+        grid-template-columns: 1fr;
+    }
 }
 
-.stupid-rocks{
-    margin-top:255px;
+@media(max-width:790px){
+    .request-container img{
+        display:none;
+    }
+
+    .request-text{
+        width:100%;
+    }
+
+    .request-heading{
+        font-size:40px;
+        line-height: 40px;
+        margin-bottom:20px;
+    }
+}
+
+@media(max-width:700px){
+    .request-desc{
+        margin-bottom:30px;
+    }
+
+    .form-container{
+        width:100%;
+        
+    }
+}
+
+
+@media(max-width:400px){
+   .request-heading{
+    font-size: 30px;
+   }
+
+}
+
+@media(max-width:322px){
+    section.request-call{
+        padding:50px 0;
+    }
+
+    section.request-call .container{
+        width:100%;
+        padding:0 20px;
+    }
 }
