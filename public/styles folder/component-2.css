@@ -119,12 +119,6 @@ nav a:hover{
 }
 
 @media(max-width:400px){
-    .search{
-        width:20%;
-    }
-}
-
-@media(max-width:322px){
     .navbar-section .container{
         text-align: center;
         align-items: center;
@@ -141,7 +135,10 @@ nav a:hover{
     .search{
         width:25%;
     }
+    
 }
+
+
 
 
 

@@ -132,6 +132,11 @@ section.highlight-showcase{
 }
 
 @media(max-width:400px){
+    section.highlight-showcase  .highlight-container{
+        width:100%;
+        padding:0 20px;
+    }
+
     .big{
         font-size:28px;
     }
@@ -141,14 +146,5 @@ section.highlight-showcase{
     }
 }
 
-@media(max-width:322px){
- section.highlight-showcase  .highlight-container{
-        width:100%;
-        padding:0 20px;
-    }
-    /* .grid-container{
-        grid-auto-rows: 300px;
-        
-    } */
-}
+
 

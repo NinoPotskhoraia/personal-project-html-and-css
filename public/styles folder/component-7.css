@@ -73,7 +73,7 @@ section.numbers{
     }
 }
 
-@media(max-width:322px){
+@media(max-width:400px){
     section.numbers .container{
         width:100%;
         padding:0 20px;

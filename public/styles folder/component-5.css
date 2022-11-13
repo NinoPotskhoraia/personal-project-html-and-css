@@ -121,6 +121,16 @@ margin-top:17px;
 }
 
 @media(max-width:400px){
+
+    section.skills-showcase{
+        padding:50px 0;
+    }
+
+    section.skills-showcase .skills-container{
+        width:100%;
+        padding:0 20px;
+    }
+
     .skills-container p{
         font-size:28px;
     }
@@ -130,16 +140,7 @@ margin-top:17px;
     }
 }
 
-@media(max-width:322px){
-    section.skills-showcase{
-        padding:50px 0;
-    }
 
-    section.skills-showcase .skills-container{
-        width:100%;
-        padding:0 20px;
-    }
-}
 
 
 

@@ -509,11 +509,15 @@
 
                 <form action="./form.php" method="post">
                     <div class="form-container grid">
-                        <select name="purpose" id="purpose">
-                            <option value="Business services consulting">Business services consulting</option>
-                            <option value="Booking the services">Booking the services</option>
-                            <option value="Frequently asked questions">Frequently asked questions"</option>
-                        </select>
+                        <div class="dropdown">
+                            <i class="fa-solid fa-caret-down"></i>
+
+                            <select name="purpose" id="purpose">
+                                <option value="Business services consulting">Buisness Services</option>
+                                <option value="Booking the services">Booking the services</option>
+                                <option value="Frequently asked questions">Frequently asked questions"</option>
+                            </select>
+                        </div>
                 
                         <input type="text" placeholder="Name">
                         <input type="number" placeholder="Phone number">

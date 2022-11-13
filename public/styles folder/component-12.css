@@ -13,7 +13,7 @@
 
 .request-heading{
     font-size:49px;
-    line-height:47px;
+    line-height:53px;
     padding-top:48px;
     max-width:760px;
     letter-spacing: -2px;
@@ -36,7 +36,7 @@
 
 
 .form-container{
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, minmax(auto, 300px));
     grid-auto-rows: 54px;
     gap:22px;
 }
@@ -44,23 +44,43 @@
 select,
 input:not(:last-child){
     border:none;
-    background-color: #CACACA;
+    background-color: rgba(0, 0, 0, 0.11);
     padding-left: 29px;
     padding-right:20px;
     padding-bottom:3px;
     color:#3B3B3B;
 }
 
+.dropdown{
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+.dropdown i{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:28px;
+    z-index: -1;
+}
+
+select{
+    width:320px;
+    height:54px;
+
+}
+
+
+
 input:focus{
     outline: none;
-    background-color: #fff;
-    border:2px solid #EE3364;
+    background-color: transparent;
 }
 
 select:focus{
     outline: none;
-    background-color: #fff;
-    border:2px solid #EE3364;
+    background-color: transparent;
 }
 
 @media(max-width:1000px){
@@ -86,7 +106,7 @@ select:focus{
 
     .form-container{
         gap:15px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 300px;
     }
 }
 
@@ -110,22 +130,10 @@ select:focus{
     .request-desc{
         margin-bottom:30px;
     }
-
-    .form-container{
-        width:100%;
-        
-    }
 }
 
 
 @media(max-width:400px){
-   .request-heading{
-    font-size: 30px;
-   }
-
-}
-
-@media(max-width:322px){
     section.request-call{
         padding:50px 0;
     }
@@ -134,4 +142,19 @@ select:focus{
         width:100%;
         padding:0 20px;
     }
+
+    .form-container{
+        gap:10px;
+        grid-template-columns: 200px;
+    }
+
+    .select{
+        width:220px;
+    }
+
+   .request-heading{
+    font-size: 30px;
+   }
+
 }
+

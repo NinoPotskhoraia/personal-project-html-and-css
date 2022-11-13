@@ -107,12 +107,6 @@ section.cards{
 }
 
 @media(max-width:400px){
-    .heading p{
-        font-size:28px;
-    }
-}
-
-@media(max-width:322px){
     section.cards {
         padding:50px 0;
         margin-bottom:0;
@@ -125,5 +119,9 @@ section.cards{
 
     .cards-container{
         margin-bottom:30px;
+    }
+
+    .heading p{
+        font-size:28px;
     }
 }

@@ -45,6 +45,11 @@ p.small{
 }
 
 @media(max-width:400px){
+    section.video .video-container{
+        width:100%;
+        padding:0 20px;
+    }
+
     .video-container p{
         font-size:28px;
     }
@@ -54,9 +59,3 @@ p.small{
     }
 }
 
-@media(max-width:322px){
-    section.video .video-container{
-        width:100%;
-        padding:0 20px;
-    }
-}
