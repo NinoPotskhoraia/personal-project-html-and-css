@@ -68,20 +68,17 @@ input:not(:last-child){
 select{
     width:320px;
     height:54px;
-
+    outline: 1px solid #EE3364;
 }
 
 
 
-input:focus{
-    outline: none;
+input:focus-within{
+    outline:1px solid #EE3364;
     background-color: transparent;
 }
 
-select:focus{
-    outline: none;
-    background-color: transparent;
-}
+
 
 @media(max-width:1000px){
     .request-call{
