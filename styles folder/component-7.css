@@ -62,7 +62,7 @@ section.numbers{
     }
 }
 
-@media(max-width:700px){
+@media(max-width:780px){
     .numbers-container{
         flex-direction: column;
     }
