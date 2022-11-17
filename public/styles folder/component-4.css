@@ -6,8 +6,8 @@ section.cards{
 }
 
 section.cards .container{
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 
 .heading{
@@ -26,16 +26,15 @@ section.cards .container{
 }
 
 .cards-container{
-    max-width:100%;
-    max-height: 100%;
+    /* max-width:100%;
+    max-height: 100%; */
     flex-wrap: wrap;
     align-content: center;
     margin-bottom: 100px;
 }
 
 .card{
-    width:30%;
-    max-width:30%;
+    max-width:364px;
     background-color: #EDF7FF;
     padding:45px;
     text-align: center;
@@ -44,9 +43,6 @@ section.cards .container{
 }
 
 .card:hover{
-    width:30%;
-    height:100%;
-    object-fit: cover;
     outline:3px solid #EE3364;
     box-shadow: 5px 9px 24px -1px rgba(0,0,0,0.5);
 }
